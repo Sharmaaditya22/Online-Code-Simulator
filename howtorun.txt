@@ -1,0 +1,7 @@
+How to run
+1) start apache-tomcat-9.0.22
+2) Goto brewer and type url :- localhost:8080/simulator.html
+
+Main file-
+
+Webapps=> root => cgi=> server.py
