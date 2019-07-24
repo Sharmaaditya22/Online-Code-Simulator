@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Editor</title>
+         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/codemirror.js"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/closebraces.js"></script>
+        <script type="text/javascript" src="js/active-line.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/page.css">
+        <link rel="stylesheet" type="text/css" href="css/codemirror.css">
+        
+        <!--
+        <meta name="viewport" content="size=device-size, initial-scale=1"/>
+        <meta http-equiv="refresh" content="1">
+        -->
+    </head>
+    <body id='body'>
+        <h1> Online Code Simulator </h1>
+        <nav class="primary">
+           
+            <span>
+                <select id='language' name="lang" class="lang">
+                    <option value="py">Python3</option>
+                    <!--<option value="cpp">C++</option>-->
+                    <option value="C">C</option>
+                </select>
+            </span>
+        </nav>
+        <div class="main">
+            <form id='run' action="http://localhost:8080/cgi-bin/server.py">
+                <textarea id="text"></textarea>
+                 <button type="submit" class="btn btn-default"><b>Execute</b></button>
+                <br/>
+            </form>
+            <textarea id="output"></textarea>
+            <!--textarea class="index"></textarea-->
+        </div>
+        <script type="text/javascript">
+            
+            window.onload = function () {
+                var run = document.getElementById('run');
+                var editor = CodeMirror.fromTextArea(document.getElementById('text'), {
+                    lineNumbers: true, matchBrackets: true, autoCloseBrackets: true, 
+                    styleActiveLine:true
+                });
+                var output_field = document.getElementById('output');
+                run.addEventListener("submit", function (e) {
+                    var lang = document.getElementById('language').value;
+                    var code = editor.getValue();
+                    console.log({
+                        'type': 'POST',
+                        'url': 'http://localhost:8080/cgi-bin/server.py',
+                        'dataType': 'json',
+                        'data': {'data': code, 'lang': lang},
+                    });
+                    $.ajax({
+                        'type': 'POST',
+                        'url': 'http://localhost:8080/cgi-bin/server.py',
+                        'dataType': 'json',
+                        'data': {'data': code, 'lang': lang},
+                        success: function (ret) {
+                            console.log('pass');
+                            //console.log(ret['error_output']);
+                            output_field.innerHTML =ret['code_output'];
+                        },
+                       
+                        failed: function (fail) {
+                            console.log('fail');
+                            output_field.innerHTML = 'Problem in the server';
+                        }
+                    })
+                    e.preventDefault();
+                });
+            }
+        </script>
+    </body>
+</html>

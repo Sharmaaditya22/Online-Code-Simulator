@@ -1,0 +1,978 @@
+19-Jul-2019 09:00:23.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.22
+19-Jul-2019 09:00:23.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2019 14:20:06 UTC
+19-Jul-2019 09:00:23.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.22.0
+19-Jul-2019 09:00:23.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+19-Jul-2019 09:00:23.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.5
+19-Jul-2019 09:00:23.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+19-Jul-2019 09:00:23.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+19-Jul-2019 09:00:23.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+19-Jul-2019 09:00:23.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Jul-2019 09:00:23.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/adityasharma/Desktop/apache-tomcat-9.0.22
+19-Jul-2019 09:00:23.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/adityasharma/Desktop/apache-tomcat-9.0.22
+19-Jul-2019 09:00:23.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/adityasharma/desktop/apache-tomcat-9.0.22/conf/logging.properties
+19-Jul-2019 09:00:23.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Jul-2019 09:00:23.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Jul-2019 09:00:23.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Jul-2019 09:00:23.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Jul-2019 09:00:23.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Jul-2019 09:00:23.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/adityasharma/desktop/apache-tomcat-9.0.22
+19-Jul-2019 09:00:23.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/adityasharma/desktop/apache-tomcat-9.0.22
+19-Jul-2019 09:00:23.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/adityasharma/desktop/apache-tomcat-9.0.22/temp
+19-Jul-2019 09:00:23.789 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/adityasharma/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+19-Jul-2019 09:00:24.580 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 09:00:24.669 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 09:00:24.673 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1,419] milliseconds
+19-Jul-2019 09:00:24.730 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Jul-2019 09:00:24.731 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.22]
+19-Jul-2019 09:00:24.745 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/docs]
+19-Jul-2019 09:00:25.268 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/docs] has finished in [523] ms
+19-Jul-2019 09:00:25.268 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/project]
+19-Jul-2019 09:00:25.296 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/project] has finished in [28] ms
+19-Jul-2019 09:00:25.297 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/manager]
+19-Jul-2019 09:00:25.336 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/manager] has finished in [39] ms
+19-Jul-2019 09:00:25.337 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/examples]
+19-Jul-2019 09:00:25.780 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/examples] has finished in [443] ms
+19-Jul-2019 09:00:25.780 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/ROOT]
+19-Jul-2019 09:00:25.802 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/ROOT] has finished in [22] ms
+19-Jul-2019 09:00:25.803 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/host-manager]
+19-Jul-2019 09:00:25.831 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/host-manager] has finished in [28] ms
+19-Jul-2019 09:00:25.836 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 09:00:25.847 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 09:00:25.850 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,176] milliseconds
+19-Jul-2019 09:04:46.491 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/project]
+19-Jul-2019 09:05:56.568 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/project]
+19-Jul-2019 09:05:56.603 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/project] has finished in [35] ms
+19-Jul-2019 09:07:12.569 WARNING [Thread-12] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Traceback (most recent call last):]
+19-Jul-2019 09:07:12.569 WARNING [Thread-12] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  File "/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/project/server.py", line 14, in <module>]
+19-Jul-2019 09:07:12.570 WARNING [Thread-12] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [    f.write(b)]
+19-Jul-2019 09:07:12.570 WARNING [Thread-12] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [TypeError: expected a character buffer object]
+19-Jul-2019 09:07:12.575 WARNING [Thread-12] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [4] lines on stderr
+19-Jul-2019 09:25:20.214 WARNING [Thread-16] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Undefined symbols for architecture x86_64:]
+19-Jul-2019 09:25:20.214 WARNING [Thread-16] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  "_main", referenced from:]
+19-Jul-2019 09:25:20.214 WARNING [Thread-16] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [     implicit entry/start for main executable]
+19-Jul-2019 09:25:20.214 WARNING [Thread-16] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [ld: symbol(s) not found for architecture x86_64]
+19-Jul-2019 09:25:20.215 WARNING [Thread-16] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [clang: error: linker command failed with exit code 1 (use -v to see invocation)]
+19-Jul-2019 09:25:20.221 WARNING [Thread-16] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [sh: ./ts: No such file or directory]
+19-Jul-2019 09:25:20.230 WARNING [Thread-16] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [6] lines on stderr
+19-Jul-2019 09:25:41.851 WARNING [Thread-17] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Undefined symbols for architecture x86_64:]
+19-Jul-2019 09:25:41.852 WARNING [Thread-17] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  "_main", referenced from:]
+19-Jul-2019 09:25:41.852 WARNING [Thread-17] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [     implicit entry/start for main executable]
+19-Jul-2019 09:25:41.852 WARNING [Thread-17] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [ld: symbol(s) not found for architecture x86_64]
+19-Jul-2019 09:25:41.852 WARNING [Thread-17] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [clang: error: linker command failed with exit code 1 (use -v to see invocation)]
+19-Jul-2019 09:25:41.858 WARNING [Thread-17] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [sh: ./ts: No such file or directory]
+19-Jul-2019 09:25:41.866 WARNING [Thread-17] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [6] lines on stderr
+19-Jul-2019 09:27:57.741 WARNING [Thread-19] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  File "/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/project/server.py", line 16]
+19-Jul-2019 09:27:57.741 WARNING [Thread-19] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [    f.write("python program output")]
+19-Jul-2019 09:27:57.741 WARNING [Thread-19] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [    ^]
+19-Jul-2019 09:27:57.741 WARNING [Thread-19] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [IndentationError: unexpected indent]
+19-Jul-2019 09:27:57.744 WARNING [Thread-19] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [4] lines on stderr
+19-Jul-2019 09:28:07.563 WARNING [Thread-20] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  File "/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/project/server.py", line 16]
+19-Jul-2019 09:28:07.563 WARNING [Thread-20] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [    f.write("python program output")]
+19-Jul-2019 09:28:07.563 WARNING [Thread-20] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [    ^]
+19-Jul-2019 09:28:07.563 WARNING [Thread-20] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [IndentationError: unexpected indent]
+19-Jul-2019 09:28:07.566 WARNING [84] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [4] lines on stderr
+19-Jul-2019 09:28:42.110 WARNING [Thread-21] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  File "/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/project/server.py", line 16]
+19-Jul-2019 09:28:42.111 WARNING [Thread-21] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [    f.write("python program output")]
+19-Jul-2019 09:28:42.111 WARNING [Thread-21] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [    ^]
+19-Jul-2019 09:28:42.111 WARNING [Thread-21] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [IndentationError: unexpected indent]
+19-Jul-2019 09:28:42.114 WARNING [Thread-21] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [4] lines on stderr
+19-Jul-2019 09:29:07.708 WARNING [Thread-22] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  File "/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/project/server.py", line 16]
+19-Jul-2019 09:29:07.709 WARNING [Thread-22] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [    f.write("python program output")]
+19-Jul-2019 09:29:07.709 WARNING [Thread-22] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [    ^]
+19-Jul-2019 09:29:07.709 WARNING [Thread-22] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [IndentationError: unexpected indent]
+19-Jul-2019 09:29:07.712 WARNING [Thread-22] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [4] lines on stderr
+19-Jul-2019 09:30:12.827 WARNING [Thread-23] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  File "/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/project/server.py", line 16]
+19-Jul-2019 09:30:12.827 WARNING [Thread-23] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [    f.write("python program output")]
+19-Jul-2019 09:30:12.827 WARNING [Thread-23] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [    ^]
+19-Jul-2019 09:30:12.827 WARNING [Thread-23] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [IndentationError: unexpected indent]
+19-Jul-2019 09:30:12.830 WARNING [Thread-23] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [4] lines on stderr
+19-Jul-2019 09:30:21.547 WARNING [Thread-24] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  File "/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/project/server.py", line 16]
+19-Jul-2019 09:30:21.547 WARNING [Thread-24] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [    f.write("python program output")]
+19-Jul-2019 09:30:21.548 WARNING [Thread-24] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [    ^]
+19-Jul-2019 09:30:21.548 WARNING [Thread-24] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [IndentationError: unexpected indent]
+19-Jul-2019 09:30:21.550 WARNING [Thread-24] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [4] lines on stderr
+19-Jul-2019 09:31:33.505 WARNING [Thread-25] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  File "/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/project/server.py", line 13]
+19-Jul-2019 09:31:33.505 WARNING [Thread-25] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [    f.write(b)]
+19-Jul-2019 09:31:33.505 WARNING [Thread-25] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [    ^]
+19-Jul-2019 09:31:33.505 WARNING [Thread-25] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [IndentationError: unexpected indent]
+19-Jul-2019 09:31:33.508 WARNING [Thread-25] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [4] lines on stderr
+19-Jul-2019 09:31:43.422 WARNING [Thread-26] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  File "/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/project/server.py", line 13]
+19-Jul-2019 09:31:43.422 WARNING [Thread-26] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [    f.write(b)]
+19-Jul-2019 09:31:43.422 WARNING [Thread-26] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [    ^]
+19-Jul-2019 09:31:43.422 WARNING [Thread-26] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [IndentationError: unexpected indent]
+19-Jul-2019 09:31:43.425 WARNING [Thread-26] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [4] lines on stderr
+19-Jul-2019 09:32:16.781 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.22
+19-Jul-2019 09:32:16.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2019 14:20:06 UTC
+19-Jul-2019 09:32:16.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.22.0
+19-Jul-2019 09:32:16.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+19-Jul-2019 09:32:16.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.5
+19-Jul-2019 09:32:16.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+19-Jul-2019 09:32:16.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+19-Jul-2019 09:32:16.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+19-Jul-2019 09:32:16.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Jul-2019 09:32:16.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/adityasharma/Desktop/apache-tomcat-9.0.22
+19-Jul-2019 09:32:16.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/adityasharma/Desktop/apache-tomcat-9.0.22
+19-Jul-2019 09:32:16.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/adityasharma/desktop/apache-tomcat-9.0.22/conf/logging.properties
+19-Jul-2019 09:32:16.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Jul-2019 09:32:16.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Jul-2019 09:32:16.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Jul-2019 09:32:16.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Jul-2019 09:32:16.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Jul-2019 09:32:16.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/adityasharma/desktop/apache-tomcat-9.0.22
+19-Jul-2019 09:32:16.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/adityasharma/desktop/apache-tomcat-9.0.22
+19-Jul-2019 09:32:16.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/adityasharma/desktop/apache-tomcat-9.0.22/temp
+19-Jul-2019 09:32:16.792 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/adityasharma/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+19-Jul-2019 09:32:17.198 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 09:32:17.230 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:533)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1059)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:584)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:304)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:474)
+	Caused by: java.net.BindException: Address already in use
+		at sun.nio.ch.Net.bind0(Native Method)
+		at sun.nio.ch.Net.bind(Net.java:433)
+		at sun.nio.ch.Net.bind(Net.java:425)
+		at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+		at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1137)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:574)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:74)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+		... 13 more
+19-Jul-2019 09:32:17.232 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 09:32:17.234 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[AJP/1.3-8009]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:533)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1059)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:584)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:304)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:474)
+	Caused by: java.net.BindException: Address already in use
+		at sun.nio.ch.Net.bind0(Native Method)
+		at sun.nio.ch.Net.bind(Net.java:433)
+		at sun.nio.ch.Net.bind(Net.java:425)
+		at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+		at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1137)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:574)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+		... 13 more
+19-Jul-2019 09:32:17.235 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [665] milliseconds
+19-Jul-2019 09:32:17.261 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Jul-2019 09:32:17.262 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.22]
+19-Jul-2019 09:32:17.270 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/docs]
+19-Jul-2019 09:32:17.580 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/docs] has finished in [310] ms
+19-Jul-2019 09:32:17.581 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/project]
+19-Jul-2019 09:32:17.612 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/project] has finished in [31] ms
+19-Jul-2019 09:32:17.613 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/manager]
+19-Jul-2019 09:32:17.651 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/manager] has finished in [39] ms
+19-Jul-2019 09:32:17.652 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/examples]
+19-Jul-2019 09:32:17.970 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/examples] has finished in [318] ms
+19-Jul-2019 09:32:17.971 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/ROOT]
+19-Jul-2019 09:32:17.993 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/ROOT] has finished in [23] ms
+19-Jul-2019 09:32:17.994 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/host-manager]
+19-Jul-2019 09:32:18.019 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/host-manager] has finished in [26] ms
+19-Jul-2019 09:32:18.026 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [790] milliseconds
+19-Jul-2019 09:32:18.030 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use (Bind failed)
+		at java.net.PlainSocketImpl.socketBind(Native Method)
+		at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+		at java.net.ServerSocket.bind(ServerSocket.java:375)
+		at java.net.ServerSocket.<init>(ServerSocket.java:237)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:584)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:721)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:667)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:344)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+19-Jul-2019 09:32:18.031 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 09:32:18.031 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 09:32:18.032 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Jul-2019 09:32:18.056 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 09:32:18.057 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 09:32:18.058 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 09:32:18.058 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 09:32:20.282 WARNING [Thread-27] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  File "/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/project/server.py", line 13]
+19-Jul-2019 09:32:20.282 WARNING [Thread-27] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [    f.write(b)]
+19-Jul-2019 09:32:20.282 WARNING [Thread-27] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [    ^]
+19-Jul-2019 09:32:20.283 WARNING [Thread-27] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [IndentationError: unexpected indent]
+19-Jul-2019 09:32:20.285 WARNING [Thread-27] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [4] lines on stderr
+19-Jul-2019 09:32:54.599 WARNING [Thread-28] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  File "/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/project/server.py", line 13]
+19-Jul-2019 09:32:54.599 WARNING [Thread-28] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [    f.write(b)]
+19-Jul-2019 09:32:54.599 WARNING [Thread-28] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [    ^]
+19-Jul-2019 09:32:54.599 WARNING [Thread-28] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [IndentationError: unexpected indent]
+19-Jul-2019 09:32:54.602 WARNING [Thread-28] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [4] lines on stderr
+19-Jul-2019 11:15:42.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.22
+19-Jul-2019 11:15:42.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2019 14:20:06 UTC
+19-Jul-2019 11:15:42.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.22.0
+19-Jul-2019 11:15:42.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+19-Jul-2019 11:15:42.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.5
+19-Jul-2019 11:15:42.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+19-Jul-2019 11:15:42.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+19-Jul-2019 11:15:42.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+19-Jul-2019 11:15:42.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Jul-2019 11:15:42.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/adityasharma/Desktop/apache-tomcat-9.0.22
+19-Jul-2019 11:15:42.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/adityasharma/Desktop/apache-tomcat-9.0.22
+19-Jul-2019 11:15:42.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/adityasharma/desktop/apache-tomcat-9.0.22/conf/logging.properties
+19-Jul-2019 11:15:42.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Jul-2019 11:15:42.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Jul-2019 11:15:42.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Jul-2019 11:15:42.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Jul-2019 11:15:42.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Jul-2019 11:15:42.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/adityasharma/desktop/apache-tomcat-9.0.22
+19-Jul-2019 11:15:42.237 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/adityasharma/desktop/apache-tomcat-9.0.22
+19-Jul-2019 11:15:42.237 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/adityasharma/desktop/apache-tomcat-9.0.22/temp
+19-Jul-2019 11:15:42.237 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/adityasharma/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+19-Jul-2019 11:15:42.671 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 11:15:42.701 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:533)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1059)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:584)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:304)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:474)
+	Caused by: java.net.BindException: Address already in use
+		at sun.nio.ch.Net.bind0(Native Method)
+		at sun.nio.ch.Net.bind(Net.java:433)
+		at sun.nio.ch.Net.bind(Net.java:425)
+		at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+		at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1137)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:574)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:74)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+		... 13 more
+19-Jul-2019 11:15:42.703 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 11:15:42.704 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[AJP/1.3-8009]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:533)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1059)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:584)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:304)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:474)
+	Caused by: java.net.BindException: Address already in use
+		at sun.nio.ch.Net.bind0(Native Method)
+		at sun.nio.ch.Net.bind(Net.java:433)
+		at sun.nio.ch.Net.bind(Net.java:425)
+		at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+		at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1137)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:574)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+		... 13 more
+19-Jul-2019 11:15:42.705 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [702] milliseconds
+19-Jul-2019 11:15:42.733 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Jul-2019 11:15:42.733 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.22]
+19-Jul-2019 11:15:42.752 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/docs]
+19-Jul-2019 11:15:43.339 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/docs] has finished in [587] ms
+19-Jul-2019 11:15:43.339 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/project]
+19-Jul-2019 11:15:43.388 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/project] has finished in [49] ms
+19-Jul-2019 11:15:43.389 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/manager]
+19-Jul-2019 11:15:43.448 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/manager] has finished in [59] ms
+19-Jul-2019 11:15:43.451 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/examples]
+19-Jul-2019 11:15:43.860 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/examples] has finished in [410] ms
+19-Jul-2019 11:15:43.861 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/ROOT]
+19-Jul-2019 11:15:43.906 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/ROOT] has finished in [45] ms
+19-Jul-2019 11:15:43.907 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/host-manager]
+19-Jul-2019 11:15:43.948 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/host-manager] has finished in [40] ms
+19-Jul-2019 11:15:43.957 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,250] milliseconds
+19-Jul-2019 11:15:43.967 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use (Bind failed)
+		at java.net.PlainSocketImpl.socketBind(Native Method)
+		at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+		at java.net.ServerSocket.bind(ServerSocket.java:375)
+		at java.net.ServerSocket.<init>(ServerSocket.java:237)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:584)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:721)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:667)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:344)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+19-Jul-2019 11:15:43.969 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 11:15:43.970 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 11:15:43.970 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Jul-2019 11:15:44.010 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 11:15:44.011 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 11:15:44.013 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 11:15:44.013 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 11:16:36.022 WARNING [Thread-34] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Traceback (most recent call last):]
+19-Jul-2019 11:16:36.022 WARNING [Thread-34] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  File "/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/project/server.py", line 6, in <module>]
+19-Jul-2019 11:16:36.023 WARNING [Thread-34] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [    form = cgi.FieldStorage()]
+19-Jul-2019 11:16:36.023 WARNING [Thread-34] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [NameError: name 'cgi' is not defined]
+19-Jul-2019 11:16:36.027 WARNING [Thread-34] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [4] lines on stderr
+19-Jul-2019 11:19:21.160 WARNING [Thread-35] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Traceback (most recent call last):]
+19-Jul-2019 11:19:21.160 WARNING [Thread-35] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  File "/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/project/server.py", line 6, in <module>]
+19-Jul-2019 11:19:21.160 WARNING [Thread-35] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [    form = cgi.FieldStorage()]
+19-Jul-2019 11:19:21.161 WARNING [Thread-35] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [NameError: name 'cgi' is not defined]
+19-Jul-2019 11:19:21.165 WARNING [Thread-35] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [4] lines on stderr
+19-Jul-2019 11:23:52.985 WARNING [Thread-36] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Traceback (most recent call last):]
+19-Jul-2019 11:23:52.985 WARNING [Thread-36] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  File "/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/project/server.py", line 6, in <module>]
+19-Jul-2019 11:23:52.985 WARNING [Thread-36] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [    form = cgi.FieldStorage()]
+19-Jul-2019 11:23:52.985 WARNING [Thread-36] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [NameError: name 'cgi' is not defined]
+19-Jul-2019 11:23:52.991 WARNING [Thread-36] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [4] lines on stderr
+19-Jul-2019 11:24:25.332 WARNING [Thread-37] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Traceback (most recent call last):]
+19-Jul-2019 11:24:25.333 WARNING [Thread-37] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  File "/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/project/server.py", line 6, in <module>]
+19-Jul-2019 11:24:25.333 WARNING [Thread-37] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [    form = cgi.FieldStorage()]
+19-Jul-2019 11:24:25.333 WARNING [Thread-37] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [NameError: name 'cgi' is not defined]
+19-Jul-2019 11:24:25.336 WARNING [Thread-37] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [4] lines on stderr
+19-Jul-2019 11:24:32.459 WARNING [Thread-38] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Traceback (most recent call last):]
+19-Jul-2019 11:24:32.459 WARNING [Thread-38] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  File "/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/project/server.py", line 6, in <module>]
+19-Jul-2019 11:24:32.459 WARNING [Thread-38] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [    form = cgi.FieldStorage()]
+19-Jul-2019 11:24:32.459 WARNING [Thread-38] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [NameError: name 'cgi' is not defined]
+19-Jul-2019 11:24:32.462 WARNING [109] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [4] lines on stderr
+19-Jul-2019 11:25:30.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.22
+19-Jul-2019 11:25:30.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2019 14:20:06 UTC
+19-Jul-2019 11:25:30.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.22.0
+19-Jul-2019 11:25:30.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+19-Jul-2019 11:25:30.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.5
+19-Jul-2019 11:25:30.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+19-Jul-2019 11:25:30.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+19-Jul-2019 11:25:30.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+19-Jul-2019 11:25:30.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Jul-2019 11:25:30.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/adityasharma/Desktop/apache-tomcat-9.0.22
+19-Jul-2019 11:25:30.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/adityasharma/Desktop/apache-tomcat-9.0.22
+19-Jul-2019 11:25:30.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/adityasharma/desktop/apache-tomcat-9.0.22/conf/logging.properties
+19-Jul-2019 11:25:30.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Jul-2019 11:25:30.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Jul-2019 11:25:30.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Jul-2019 11:25:30.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Jul-2019 11:25:30.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Jul-2019 11:25:30.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/adityasharma/desktop/apache-tomcat-9.0.22
+19-Jul-2019 11:25:30.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/adityasharma/desktop/apache-tomcat-9.0.22
+19-Jul-2019 11:25:30.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/adityasharma/desktop/apache-tomcat-9.0.22/temp
+19-Jul-2019 11:25:30.252 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/adityasharma/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+19-Jul-2019 11:25:30.662 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 11:25:30.692 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:533)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1059)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:584)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:304)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:474)
+	Caused by: java.net.BindException: Address already in use
+		at sun.nio.ch.Net.bind0(Native Method)
+		at sun.nio.ch.Net.bind(Net.java:433)
+		at sun.nio.ch.Net.bind(Net.java:425)
+		at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+		at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1137)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:574)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:74)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+		... 13 more
+19-Jul-2019 11:25:30.693 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 11:25:30.695 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[AJP/1.3-8009]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:533)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1059)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:584)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:304)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:474)
+	Caused by: java.net.BindException: Address already in use
+		at sun.nio.ch.Net.bind0(Native Method)
+		at sun.nio.ch.Net.bind(Net.java:433)
+		at sun.nio.ch.Net.bind(Net.java:425)
+		at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+		at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1137)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:574)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+		... 13 more
+19-Jul-2019 11:25:30.696 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [675] milliseconds
+19-Jul-2019 11:25:30.720 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Jul-2019 11:25:30.721 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.22]
+19-Jul-2019 11:25:30.729 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/docs]
+19-Jul-2019 11:25:31.050 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/docs] has finished in [321] ms
+19-Jul-2019 11:25:31.051 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/project]
+19-Jul-2019 11:25:31.071 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/project] has finished in [20] ms
+19-Jul-2019 11:25:31.071 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/manager]
+19-Jul-2019 11:25:31.101 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/manager] has finished in [30] ms
+19-Jul-2019 11:25:31.101 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/examples]
+19-Jul-2019 11:25:31.462 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/examples] has finished in [361] ms
+19-Jul-2019 11:25:31.463 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/ROOT]
+19-Jul-2019 11:25:31.500 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/ROOT] has finished in [37] ms
+19-Jul-2019 11:25:31.501 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/host-manager]
+19-Jul-2019 11:25:31.546 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/host-manager] has finished in [45] ms
+19-Jul-2019 11:25:31.559 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [863] milliseconds
+19-Jul-2019 11:25:31.565 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use (Bind failed)
+		at java.net.PlainSocketImpl.socketBind(Native Method)
+		at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+		at java.net.ServerSocket.bind(ServerSocket.java:375)
+		at java.net.ServerSocket.<init>(ServerSocket.java:237)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:584)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:721)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:667)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:344)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+19-Jul-2019 11:25:31.568 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 11:25:31.569 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 11:25:31.569 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Jul-2019 11:25:31.619 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 11:25:31.619 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 11:25:31.620 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 11:25:31.627 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 11:25:33.618 WARNING [Thread-39] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Traceback (most recent call last):]
+19-Jul-2019 11:25:33.619 WARNING [Thread-39] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  File "/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/project/server.py", line 6, in <module>]
+19-Jul-2019 11:25:33.619 WARNING [Thread-39] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [    form = cgi.FieldStorage()]
+19-Jul-2019 11:25:33.619 WARNING [Thread-39] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [NameError: name 'cgi' is not defined]
+19-Jul-2019 11:25:33.622 WARNING [Thread-39] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [4] lines on stderr
+19-Jul-2019 11:25:53.664 WARNING [Thread-40] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Traceback (most recent call last):]
+19-Jul-2019 11:25:53.664 WARNING [Thread-40] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  File "/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/project/server.py", line 6, in <module>]
+19-Jul-2019 11:25:53.665 WARNING [Thread-40] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [    form = cgi.FieldStorage()]
+19-Jul-2019 11:25:53.665 WARNING [Thread-40] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [NameError: name 'cgi' is not defined]
+19-Jul-2019 11:25:53.668 WARNING [Thread-40] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [4] lines on stderr
+19-Jul-2019 11:26:04.546 WARNING [Thread-41] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Traceback (most recent call last):]
+19-Jul-2019 11:26:04.546 WARNING [Thread-41] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  File "/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/project/server.py", line 6, in <module>]
+19-Jul-2019 11:26:04.546 WARNING [Thread-41] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [    form = cgi.FieldStorage()]
+19-Jul-2019 11:26:04.546 WARNING [Thread-41] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [NameError: name 'cgi' is not defined]
+19-Jul-2019 11:26:04.549 WARNING [Thread-41] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [4] lines on stderr
+19-Jul-2019 11:57:40.915 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Jul-2019 11:57:40.916 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 11:57:40.928 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 11:57:40.935 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Jul-2019 11:57:40.964 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 11:57:40.968 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 11:57:40.970 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 11:57:40.971 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 18:46:20.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.22
+19-Jul-2019 18:46:20.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2019 14:20:06 UTC
+19-Jul-2019 18:46:20.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.22.0
+19-Jul-2019 18:46:20.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+19-Jul-2019 18:46:20.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.5
+19-Jul-2019 18:46:20.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+19-Jul-2019 18:46:20.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+19-Jul-2019 18:46:20.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+19-Jul-2019 18:46:20.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Jul-2019 18:46:20.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/adityasharma/Desktop/apache-tomcat-9.0.22
+19-Jul-2019 18:46:20.017 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/adityasharma/Desktop/apache-tomcat-9.0.22
+19-Jul-2019 18:46:20.032 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/adityasharma/desktop/apache-tomcat-9.0.22/conf/logging.properties
+19-Jul-2019 18:46:20.032 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Jul-2019 18:46:20.032 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Jul-2019 18:46:20.032 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Jul-2019 18:46:20.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Jul-2019 18:46:20.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Jul-2019 18:46:20.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/adityasharma/desktop/apache-tomcat-9.0.22
+19-Jul-2019 18:46:20.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/adityasharma/desktop/apache-tomcat-9.0.22
+19-Jul-2019 18:46:20.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/adityasharma/desktop/apache-tomcat-9.0.22/temp
+19-Jul-2019 18:46:20.034 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/adityasharma/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+19-Jul-2019 18:46:20.847 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 18:46:20.944 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 18:46:20.948 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1,459] milliseconds
+19-Jul-2019 18:46:21.030 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Jul-2019 18:46:21.030 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.22]
+19-Jul-2019 18:46:21.051 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/docs]
+19-Jul-2019 18:46:21.761 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/docs] has finished in [709] ms
+19-Jul-2019 18:46:21.764 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/project]
+19-Jul-2019 18:46:21.817 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/project] has finished in [54] ms
+19-Jul-2019 18:46:21.818 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/manager]
+19-Jul-2019 18:46:21.875 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/manager] has finished in [56] ms
+19-Jul-2019 18:46:21.875 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/examples]
+19-Jul-2019 18:46:22.763 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/examples] has finished in [888] ms
+19-Jul-2019 18:46:22.766 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/ROOT]
+19-Jul-2019 18:46:22.793 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/ROOT] has finished in [27] ms
+19-Jul-2019 18:46:22.793 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/host-manager]
+19-Jul-2019 18:46:22.842 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/host-manager] has finished in [49] ms
+19-Jul-2019 18:46:22.854 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 18:46:22.887 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 18:46:22.890 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,941] milliseconds
+19-Jul-2019 19:02:29.066 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Jul-2019 19:02:29.067 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 19:02:29.080 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 19:02:29.086 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Jul-2019 19:02:29.130 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 19:02:29.133 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 19:02:29.135 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 19:02:29.137 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 19:02:37.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.22
+19-Jul-2019 19:02:37.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2019 14:20:06 UTC
+19-Jul-2019 19:02:37.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.22.0
+19-Jul-2019 19:02:37.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+19-Jul-2019 19:02:37.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.5
+19-Jul-2019 19:02:37.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+19-Jul-2019 19:02:37.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+19-Jul-2019 19:02:37.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+19-Jul-2019 19:02:37.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Jul-2019 19:02:37.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/adityasharma/Desktop/apache-tomcat-9.0.22
+19-Jul-2019 19:02:37.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/adityasharma/Desktop/apache-tomcat-9.0.22
+19-Jul-2019 19:02:37.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/adityasharma/desktop/apache-tomcat-9.0.22/conf/logging.properties
+19-Jul-2019 19:02:37.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Jul-2019 19:02:37.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Jul-2019 19:02:37.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Jul-2019 19:02:37.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Jul-2019 19:02:37.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Jul-2019 19:02:37.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/adityasharma/desktop/apache-tomcat-9.0.22
+19-Jul-2019 19:02:37.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/adityasharma/desktop/apache-tomcat-9.0.22
+19-Jul-2019 19:02:37.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/adityasharma/desktop/apache-tomcat-9.0.22/temp
+19-Jul-2019 19:02:37.036 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/adityasharma/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+19-Jul-2019 19:02:37.547 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 19:02:37.603 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 19:02:37.606 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [819] milliseconds
+19-Jul-2019 19:02:37.662 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Jul-2019 19:02:37.662 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.22]
+19-Jul-2019 19:02:37.677 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/docs]
+19-Jul-2019 19:02:38.101 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/docs] has finished in [424] ms
+19-Jul-2019 19:02:38.102 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/project]
+19-Jul-2019 19:02:38.141 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/project] has finished in [39] ms
+19-Jul-2019 19:02:38.142 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/manager]
+19-Jul-2019 19:02:38.201 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/manager] has finished in [58] ms
+19-Jul-2019 19:02:38.201 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/examples]
+19-Jul-2019 19:02:38.654 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/examples] has finished in [453] ms
+19-Jul-2019 19:02:38.654 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/ROOT]
+19-Jul-2019 19:02:38.678 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/ROOT] has finished in [24] ms
+19-Jul-2019 19:02:38.679 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/host-manager]
+19-Jul-2019 19:02:38.708 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/host-manager] has finished in [30] ms
+19-Jul-2019 19:02:38.713 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 19:02:38.725 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 19:02:38.729 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,121] milliseconds
+19-Jul-2019 19:03:35.846 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Jul-2019 19:03:35.847 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 19:03:35.853 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 19:03:35.859 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Jul-2019 19:03:35.891 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 19:03:35.895 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 19:03:35.897 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 19:03:35.899 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 19:03:38.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.22
+19-Jul-2019 19:03:38.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2019 14:20:06 UTC
+19-Jul-2019 19:03:38.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.22.0
+19-Jul-2019 19:03:38.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+19-Jul-2019 19:03:38.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.5
+19-Jul-2019 19:03:38.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+19-Jul-2019 19:03:38.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+19-Jul-2019 19:03:38.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+19-Jul-2019 19:03:38.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Jul-2019 19:03:38.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/adityasharma/Desktop/apache-tomcat-9.0.22
+19-Jul-2019 19:03:38.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/adityasharma/Desktop/apache-tomcat-9.0.22
+19-Jul-2019 19:03:38.944 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/adityasharma/desktop/apache-tomcat-9.0.22/conf/logging.properties
+19-Jul-2019 19:03:38.944 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Jul-2019 19:03:38.944 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Jul-2019 19:03:38.944 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Jul-2019 19:03:38.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Jul-2019 19:03:38.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Jul-2019 19:03:38.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/adityasharma/desktop/apache-tomcat-9.0.22
+19-Jul-2019 19:03:38.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/adityasharma/desktop/apache-tomcat-9.0.22
+19-Jul-2019 19:03:38.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/adityasharma/desktop/apache-tomcat-9.0.22/temp
+19-Jul-2019 19:03:38.946 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/adityasharma/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+19-Jul-2019 19:03:39.511 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 19:03:39.571 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 19:03:39.574 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [897] milliseconds
+19-Jul-2019 19:03:39.614 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Jul-2019 19:03:39.615 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.22]
+19-Jul-2019 19:03:39.628 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/docs]
+19-Jul-2019 19:03:40.049 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/docs] has finished in [421] ms
+19-Jul-2019 19:03:40.052 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/project]
+19-Jul-2019 19:03:40.095 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/project] has finished in [42] ms
+19-Jul-2019 19:03:40.095 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/manager]
+19-Jul-2019 19:03:40.137 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/manager] has finished in [42] ms
+19-Jul-2019 19:03:40.143 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/examples]
+19-Jul-2019 19:03:40.558 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/examples] has finished in [415] ms
+19-Jul-2019 19:03:40.559 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/ROOT]
+19-Jul-2019 19:03:40.584 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/ROOT] has finished in [26] ms
+19-Jul-2019 19:03:40.585 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/host-manager]
+19-Jul-2019 19:03:40.608 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/host-manager] has finished in [23] ms
+19-Jul-2019 19:03:40.614 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 19:03:40.623 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 19:03:40.625 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,050] milliseconds
+19-Jul-2019 19:05:10.748 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Jul-2019 19:05:10.749 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 19:05:10.760 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 19:05:10.767 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Jul-2019 19:05:10.799 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 19:05:10.804 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 19:05:10.805 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 19:05:10.806 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 19:05:12.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.22
+19-Jul-2019 19:05:12.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2019 14:20:06 UTC
+19-Jul-2019 19:05:12.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.22.0
+19-Jul-2019 19:05:12.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+19-Jul-2019 19:05:12.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.5
+19-Jul-2019 19:05:12.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+19-Jul-2019 19:05:12.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+19-Jul-2019 19:05:12.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+19-Jul-2019 19:05:12.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Jul-2019 19:05:12.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/adityasharma/Desktop/apache-tomcat-9.0.22
+19-Jul-2019 19:05:12.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/adityasharma/Desktop/apache-tomcat-9.0.22
+19-Jul-2019 19:05:12.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/adityasharma/desktop/apache-tomcat-9.0.22/conf/logging.properties
+19-Jul-2019 19:05:12.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Jul-2019 19:05:12.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Jul-2019 19:05:12.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Jul-2019 19:05:12.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Jul-2019 19:05:12.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Jul-2019 19:05:12.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/adityasharma/desktop/apache-tomcat-9.0.22
+19-Jul-2019 19:05:12.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/adityasharma/desktop/apache-tomcat-9.0.22
+19-Jul-2019 19:05:12.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/adityasharma/desktop/apache-tomcat-9.0.22/temp
+19-Jul-2019 19:05:12.947 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/adityasharma/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+19-Jul-2019 19:05:13.480 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 19:05:13.528 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 19:05:13.532 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [847] milliseconds
+19-Jul-2019 19:05:13.583 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Jul-2019 19:05:13.584 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.22]
+19-Jul-2019 19:05:13.620 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/docs]
+19-Jul-2019 19:05:14.109 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/docs] has finished in [489] ms
+19-Jul-2019 19:05:14.110 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/project]
+19-Jul-2019 19:05:14.158 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/project] has finished in [47] ms
+19-Jul-2019 19:05:14.158 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/manager]
+19-Jul-2019 19:05:14.201 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/manager] has finished in [43] ms
+19-Jul-2019 19:05:14.201 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/examples]
+19-Jul-2019 19:05:14.585 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/examples] has finished in [383] ms
+19-Jul-2019 19:05:14.585 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/ROOT]
+19-Jul-2019 19:05:14.610 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/ROOT] has finished in [25] ms
+19-Jul-2019 19:05:14.616 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/host-manager]
+19-Jul-2019 19:05:14.661 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/host-manager] has finished in [45] ms
+19-Jul-2019 19:05:14.669 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 19:05:14.681 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 19:05:14.685 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,152] milliseconds
+19-Jul-2019 19:11:45.407 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Jul-2019 19:11:45.409 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 19:11:45.421 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 19:11:45.428 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Jul-2019 19:11:45.459 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 19:11:45.462 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 19:11:45.464 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 19:11:45.466 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 19:11:47.172 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.22
+19-Jul-2019 19:11:47.174 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2019 14:20:06 UTC
+19-Jul-2019 19:11:47.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.22.0
+19-Jul-2019 19:11:47.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+19-Jul-2019 19:11:47.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.5
+19-Jul-2019 19:11:47.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+19-Jul-2019 19:11:47.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+19-Jul-2019 19:11:47.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+19-Jul-2019 19:11:47.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Jul-2019 19:11:47.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/adityasharma/Desktop/apache-tomcat-9.0.22
+19-Jul-2019 19:11:47.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/adityasharma/Desktop/apache-tomcat-9.0.22
+19-Jul-2019 19:11:47.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/adityasharma/desktop/apache-tomcat-9.0.22/conf/logging.properties
+19-Jul-2019 19:11:47.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Jul-2019 19:11:47.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Jul-2019 19:11:47.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Jul-2019 19:11:47.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Jul-2019 19:11:47.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Jul-2019 19:11:47.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/adityasharma/desktop/apache-tomcat-9.0.22
+19-Jul-2019 19:11:47.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/adityasharma/desktop/apache-tomcat-9.0.22
+19-Jul-2019 19:11:47.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/adityasharma/desktop/apache-tomcat-9.0.22/temp
+19-Jul-2019 19:11:47.184 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/adityasharma/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+19-Jul-2019 19:11:47.765 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 19:11:47.832 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 19:11:47.838 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [926] milliseconds
+19-Jul-2019 19:11:47.877 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Jul-2019 19:11:47.878 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.22]
+19-Jul-2019 19:11:47.889 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/docs]
+19-Jul-2019 19:11:48.277 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/docs] has finished in [388] ms
+19-Jul-2019 19:11:48.278 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/project]
+19-Jul-2019 19:11:48.333 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/project] has finished in [55] ms
+19-Jul-2019 19:11:48.334 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/manager]
+19-Jul-2019 19:11:48.386 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/manager] has finished in [52] ms
+19-Jul-2019 19:11:48.387 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/examples]
+19-Jul-2019 19:11:48.789 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/examples] has finished in [402] ms
+19-Jul-2019 19:11:48.789 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/ROOT]
+19-Jul-2019 19:11:48.816 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/ROOT] has finished in [27] ms
+19-Jul-2019 19:11:48.816 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/host-manager]
+19-Jul-2019 19:11:48.850 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/host-manager] has finished in [33] ms
+19-Jul-2019 19:11:48.861 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 19:11:48.870 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 19:11:48.874 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,034] milliseconds
+19-Jul-2019 20:18:09.820 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Jul-2019 20:18:09.822 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 20:18:09.833 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 20:18:09.841 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Jul-2019 20:18:09.870 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 20:18:09.876 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 20:18:09.877 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 20:18:09.879 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 20:42:06.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.22
+19-Jul-2019 20:42:06.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2019 14:20:06 UTC
+19-Jul-2019 20:42:06.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.22.0
+19-Jul-2019 20:42:06.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+19-Jul-2019 20:42:06.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.5
+19-Jul-2019 20:42:06.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+19-Jul-2019 20:42:06.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+19-Jul-2019 20:42:06.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+19-Jul-2019 20:42:06.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Jul-2019 20:42:06.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/adityasharma/Desktop/apache-tomcat-9.0.22
+19-Jul-2019 20:42:06.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/adityasharma/Desktop/apache-tomcat-9.0.22
+19-Jul-2019 20:42:06.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/adityasharma/desktop/apache-tomcat-9.0.22/conf/logging.properties
+19-Jul-2019 20:42:06.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Jul-2019 20:42:06.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Jul-2019 20:42:06.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Jul-2019 20:42:06.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Jul-2019 20:42:06.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Jul-2019 20:42:06.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/adityasharma/desktop/apache-tomcat-9.0.22
+19-Jul-2019 20:42:06.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/adityasharma/desktop/apache-tomcat-9.0.22
+19-Jul-2019 20:42:06.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/adityasharma/desktop/apache-tomcat-9.0.22/temp
+19-Jul-2019 20:42:06.611 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/adityasharma/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+19-Jul-2019 20:42:07.027 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 20:42:07.069 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 20:42:07.073 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [704] milliseconds
+19-Jul-2019 20:42:07.104 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Jul-2019 20:42:07.104 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.22]
+19-Jul-2019 20:42:07.114 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/docs]
+19-Jul-2019 20:42:07.459 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/docs] has finished in [345] ms
+19-Jul-2019 20:42:07.460 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/project]
+19-Jul-2019 20:42:07.491 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/project] has finished in [31] ms
+19-Jul-2019 20:42:07.492 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/manager]
+19-Jul-2019 20:42:07.565 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/manager] has finished in [72] ms
+19-Jul-2019 20:42:07.565 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/examples]
+19-Jul-2019 20:42:08.066 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/examples] has finished in [500] ms
+19-Jul-2019 20:42:08.066 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/ROOT]
+19-Jul-2019 20:42:08.096 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/ROOT] has finished in [30] ms
+19-Jul-2019 20:42:08.097 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/host-manager]
+19-Jul-2019 20:42:08.133 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/host-manager] has finished in [35] ms
+19-Jul-2019 20:42:08.139 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 20:42:08.153 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 20:42:08.157 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,083] milliseconds
+19-Jul-2019 20:51:39.510 WARNING [Thread-6] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  File "/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/project/server.py", line 3]
+19-Jul-2019 20:51:39.510 WARNING [Thread-6] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [    print "Content-type:text/html\r\n\r\n"]
+19-Jul-2019 20:51:39.510 WARNING [Thread-6] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [                                         ^]
+19-Jul-2019 20:51:39.510 WARNING [Thread-6] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [SyntaxError: Missing parentheses in call to 'print'. Did you mean print("Content-type:text/html\r\n\r\n")?]
+19-Jul-2019 20:51:39.513 WARNING [Thread-6] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [4] lines on stderr
+19-Jul-2019 20:52:11.866 WARNING [Thread-7] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [/Library/Frameworks/Python.framework/Versions/3.7/Resources/Python.app/Contents/MacOS/Python: can't open file '/project/pythonfile.py': [Errno 2] No such file or directory]
+19-Jul-2019 20:52:11.881 WARNING [Thread-7] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+19-Jul-2019 20:56:38.669 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context []
+19-Jul-2019 20:56:38.670 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+19-Jul-2019 20:56:38.739 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+19-Jul-2019 20:56:38.739 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/examples]
+19-Jul-2019 20:56:38.739 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/examples] has started
+19-Jul-2019 20:56:38.946 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/examples] is completed
+19-Jul-2019 20:56:38.947 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/host-manager]
+19-Jul-2019 20:56:38.947 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/host-manager] has started
+19-Jul-2019 20:56:38.969 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/host-manager] is completed
+19-Jul-2019 20:56:38.970 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/project]
+19-Jul-2019 20:56:38.970 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/project] has started
+19-Jul-2019 20:56:38.989 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/project] is completed
+19-Jul-2019 20:56:38.989 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/manager]
+19-Jul-2019 20:56:38.989 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/manager] has started
+19-Jul-2019 20:56:39.020 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/manager] is completed
+19-Jul-2019 20:56:39.020 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/docs]
+19-Jul-2019 20:56:39.020 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/docs] has started
+19-Jul-2019 20:56:39.040 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/docs] is completed
+19-Jul-2019 21:02:39.233 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context []
+19-Jul-2019 21:02:39.234 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+19-Jul-2019 21:02:39.296 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+19-Jul-2019 21:02:39.297 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/examples]
+19-Jul-2019 21:02:39.297 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/examples] has started
+19-Jul-2019 21:02:39.494 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/examples] is completed
+19-Jul-2019 21:02:39.494 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/host-manager]
+19-Jul-2019 21:02:39.495 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/host-manager] has started
+19-Jul-2019 21:02:39.516 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/host-manager] is completed
+19-Jul-2019 21:02:39.516 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/project]
+19-Jul-2019 21:02:39.516 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/project] has started
+19-Jul-2019 21:02:39.538 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/project] is completed
+19-Jul-2019 21:02:39.539 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/manager]
+19-Jul-2019 21:02:39.539 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/manager] has started
+19-Jul-2019 21:02:39.558 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/manager] is completed
+19-Jul-2019 21:02:39.559 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/docs]
+19-Jul-2019 21:02:39.559 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/docs] has started
+19-Jul-2019 21:02:39.575 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/docs] is completed
+19-Jul-2019 21:11:01.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.22
+19-Jul-2019 21:11:01.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2019 14:20:06 UTC
+19-Jul-2019 21:11:01.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.22.0
+19-Jul-2019 21:11:01.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+19-Jul-2019 21:11:01.086 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.5
+19-Jul-2019 21:11:01.086 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+19-Jul-2019 21:11:01.086 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+19-Jul-2019 21:11:01.086 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+19-Jul-2019 21:11:01.086 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Jul-2019 21:11:01.086 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/adityasharma/Desktop/apache-tomcat-9.0.22
+19-Jul-2019 21:11:01.086 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/adityasharma/Desktop/apache-tomcat-9.0.22
+19-Jul-2019 21:11:01.090 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/adityasharma/Desktop/apache-tomcat-9.0.22/conf/logging.properties
+19-Jul-2019 21:11:01.090 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Jul-2019 21:11:01.090 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Jul-2019 21:11:01.090 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Jul-2019 21:11:01.090 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Jul-2019 21:11:01.090 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Jul-2019 21:11:01.090 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/adityasharma/Desktop/apache-tomcat-9.0.22
+19-Jul-2019 21:11:01.090 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/adityasharma/Desktop/apache-tomcat-9.0.22
+19-Jul-2019 21:11:01.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/adityasharma/Desktop/apache-tomcat-9.0.22/temp
+19-Jul-2019 21:11:01.091 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/adityasharma/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+19-Jul-2019 21:11:01.530 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 21:11:01.566 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:533)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1059)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:584)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:304)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:474)
+	Caused by: java.net.BindException: Address already in use
+		at sun.nio.ch.Net.bind0(Native Method)
+		at sun.nio.ch.Net.bind(Net.java:433)
+		at sun.nio.ch.Net.bind(Net.java:425)
+		at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+		at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1137)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:574)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:74)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+		... 13 more
+19-Jul-2019 21:11:01.568 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 21:11:01.572 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[AJP/1.3-8009]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:533)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1059)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:584)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:304)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:474)
+	Caused by: java.net.BindException: Address already in use
+		at sun.nio.ch.Net.bind0(Native Method)
+		at sun.nio.ch.Net.bind(Net.java:433)
+		at sun.nio.ch.Net.bind(Net.java:425)
+		at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+		at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1137)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:574)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+		... 13 more
+19-Jul-2019 21:11:01.575 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [739] milliseconds
+19-Jul-2019 21:11:01.676 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Jul-2019 21:11:01.676 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.22]
+19-Jul-2019 21:11:01.686 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/docs]
+19-Jul-2019 21:11:02.156 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/docs] has finished in [470] ms
+19-Jul-2019 21:11:02.157 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/project]
+19-Jul-2019 21:11:02.220 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/project] has finished in [63] ms
+19-Jul-2019 21:11:02.220 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/manager]
+19-Jul-2019 21:11:02.275 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/manager] has finished in [55] ms
+19-Jul-2019 21:11:02.275 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/examples]
+19-Jul-2019 21:11:02.668 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/examples] has finished in [393] ms
+19-Jul-2019 21:11:02.669 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/ROOT]
+19-Jul-2019 21:11:02.692 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/ROOT] has finished in [23] ms
+19-Jul-2019 21:11:02.693 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/host-manager]
+19-Jul-2019 21:11:02.721 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adityasharma/Desktop/apache-tomcat-9.0.22/webapps/host-manager] has finished in [28] ms
+19-Jul-2019 21:11:02.729 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,153] milliseconds
+19-Jul-2019 21:11:02.734 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use (Bind failed)
+		at java.net.PlainSocketImpl.socketBind(Native Method)
+		at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+		at java.net.ServerSocket.bind(ServerSocket.java:375)
+		at java.net.ServerSocket.<init>(ServerSocket.java:237)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:584)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:721)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:667)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:344)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+19-Jul-2019 21:11:02.735 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 21:11:02.736 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 21:11:02.736 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Jul-2019 21:11:02.768 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 21:11:02.768 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 21:11:02.769 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 21:11:02.769 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 21:33:29.625 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Jul-2019 21:33:29.627 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 21:33:29.638 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 21:33:29.645 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Jul-2019 21:33:29.678 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 21:33:29.681 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2019 21:33:29.684 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Jul-2019 21:33:29.684 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

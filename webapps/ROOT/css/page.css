@@ -1,0 +1,92 @@
+body{
+        
+	overflow: scroll;
+        
+}
+
+h1{
+        font-size: 40px;
+        font-family: monotype corsiva;
+        color: #179b77;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.btn-default{
+		
+		color: #1ab188;
+		font-size: 15px;
+		border-color: #1ab188;
+		border-radius: 10px;
+
+	}
+	.btn-default:hover{
+		background-color: #1ab188;
+		color: white;
+	}
+nav{
+        margin-left: 10px;
+	width: 80vw;
+	height: 10vh;
+	background-color: #179b77;
+        border-style: solid;
+        border-color: #179b77;
+}
+
+nav span{
+	height: 10vh;
+	cursor: pointer;
+	box-sizing:border-box;
+	display: inline-block;
+	padding:25px;
+	color: white;
+	font-size: 17px;
+	font-family: monospace;
+	color: #000;
+}
+.main{
+        margin-left: 10px;
+        margin-right: 70px;
+        margin-bottom: 70px;
+	height: 63vh;
+	width: 80vw;
+        border-style: solid;
+        border-color: #179b77;
+        font-size: 17px;
+}
+
+.main #output{
+	width: 100%;
+	height: 20vh;
+	font-size: 30px;
+	font-family: times new roman;
+        color:#ffffff;
+	background-color: #179b77;
+	font-size: 17px;
+        border-style: solid;
+        border-color: #179b77;
+        overflow: scroll;
+}
+
+
+
+.lang{
+   height: 35px;
+   overflow: hidden;
+   width: 140px;
+   color: #fff; 
+   border-radius: 5px;
+   background-color: #fff;
+   color: #334444;
+   font-family: monospace;
+   font-size: 16px;
+   padding: 5px;
+
+}
+
+.lang option{
+	color: #334444;
+	font-family: monospace;
+	font-size: 16px;
+
+}
